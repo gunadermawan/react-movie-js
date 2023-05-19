@@ -23,6 +23,7 @@
   display: flex;
   justify-content: center ;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -38,4 +39,23 @@
   margin-bottom: 32px;
   padding: 16px;
   font-weight: bold;
+}
+
+.Movie-title{
+  height: 60px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.Movie-date{
+  margin-top: 26px;
+  font-style: italic;
+}
+
+.Movie-rate{
+  color: yellow;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 24px;
+  text-decoration: underline;
 }
